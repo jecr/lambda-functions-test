@@ -1,0 +1,30 @@
+{
+  "name": "lambda-functions-test",
+  "version": "1.0.0",
+  "description": "Netlify lambda functions test",
+  "main": "functions/server.js",
+  "scripts": {
+    "build": "netlify-lambda build express",
+    "local-build": "nodemon local-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jecr/lambda-functions-test.git"
+  },
+  "keywords": [
+    "Netlify",
+    "lambda"
+  ],
+  "author": "jorge.ecro@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jecr/lambda-functions-test/issues"
+  },
+  "homepage": "https://github.com/jecr/lambda-functions-test#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.1",
+    "nodemon": "^2.0.4",
+    "serverless-http": "^2.5.0"
+  }
+}
